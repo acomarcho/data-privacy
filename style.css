@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Hammersmith One', sans-serif;
+	background-color: #707993;
+}
+
+h2 {
+	padding-top: 10px;
+	margin: 0px;
+}
+
+.mcontainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.boxh {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	text-align: center;
+	color: #3BBA9C;
+	width: 100%;
+	height: 100px;
+}
+
+
+.box1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #3BBA9C;
+	background-color: #2E3047;
+	width: 100%;
+	padding: 50px;
+	height: 200px;
+}
+
+.box2 {
+	text-align: center;
+	color: #3BBA9C;
+	background-color: #3C3F58;
+	width: 100%;
+	padding: 50px;
+}
+
+.box3 {
+	text-align: center;
+	color: #3BBA9C;
+	background-color: #43455C;
+	width: 100%;
+	padding: 50px;
+}
+
+.card {
+	background-color: #2E3047;
+	margin: 20px;
+}
+
+.myimg {
+	width: 50%;
+	max-width: 400px;
+	margin-bottom: 40px;
+}
+
+p {
+	color: #CCC;
+}
+
+footer p {
+	color: #3BBA9C;
+}
+
+footer {
+	display: flex;
+	background-color: #000000;
+	justify-content: center;
+	text-align: center;
+	padding: 50px;
+}
